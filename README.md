@@ -2,10 +2,10 @@ Kalkulator Geometri OOP
 
 📖 Deskripsi Proyek
 Sistem Kalkulator Geometri ini digunakan untuk menghitung **luas dan keliling bangun datar**, yaitu:
-- Persegi  
-- Persegi Panjang  
-- Segitiga  
-- Lingkaran  
+1. Persegi  
+2. Persegi Panjang  
+3. Segitiga  
+4. Lingkaran  
 
 Aplikasi dibangun dengan menerapkan konsep OOP secara menyeluruh, seperti Abstraction, Inheritance, Polymorphism, Encapsulation, serta Custom Exception Handling.  
 Selain melakukan perhitungan, sistem juga menyimpan riwayat hasil perhitungan ke dalam database MySQL menggunakan PDO.
@@ -13,13 +13,13 @@ Selain melakukan perhitungan, sistem juga menyimpan riwayat hasil perhitungan ke
 ---
 
 🧠 Konsep OOP yang Diterapkan
-- Abstract Class (`BangunDatar`)
-- Interface (`Calculable`)
-- Inheritance & Polymorphism pada class bangun datar
-- Encapsulation pada atribut
-- Custom Exception (`SisiNegatifException`, `DimensiTidakLengkapException`)
-- MVC (Model-View-Controller) sederhana
-- CRUD menggunakan PDO Prepared Statement
+1. Abstract Class (`BangunDatar`)
+2. Interface (`Calculable`)
+3. Inheritance & Polymorphism pada class bangun datar
+4. Encapsulation pada atribut
+5. Custom Exception (`SisiNegatifException`, `DimensiTidakLengkapException`)
+6. MVC (Model-View-Controller) sederhana
+7. CRUD menggunakan PDO Prepared Statement
 
 ---
 
@@ -57,29 +57,29 @@ kalkulator-geometri-oop/
 ---
 
 ⚙️ Teknologi yang Digunakan
-- PHP OOP (Native / Murni)
-- MySQL
-- PDO
-- HTML & CSS
-- MVC Architecture
+1. PHP OOP (Native / Murni)
+2. MySQL
+3. PDO
+4. HTML & CSS
+5. MVC Architecture
 
 ---
 
 ✅ Fitur Utama
-- Perhitungan luas dan keliling bangun datar
-- Validasi input (tidak menerima nilai negatif / tidak lengkap)
-- Custom error handling
-- Penyimpanan dan penampilan riwayat perhitungan
-- Struktur kode modular dan mudah dikembangkan
+1. Perhitungan luas dan keliling bangun datar
+2. Validasi input (tidak menerima nilai negatif / tidak lengkap)
+3. Custom error handling
+4. Penyimpanan dan penampilan riwayat perhitungan
+5. Struktur kode modular dan mudah dikembangkan
 
 ---
 
 🧪 Pengujian
 Pengujian dilakukan menggunakan skenario uji fungsional (black box testing) yang mencakup:
-- Validasi perhitungan
-- Pengujian polymorphism
-- Pengujian custom exception
-- Pengujian integrasi database
+1. Validasi perhitungan
+2. Pengujian polymorphism
+3. Pengujian custom exception
+4. Pengujian integrasi database
 
 ---
 
